@@ -46,7 +46,7 @@ try:
                       "\n"
                       "\nSo Substitute for the Formula.\n"
                       "\nThen find the value of DISCRIMINANT (b² - 4ac)\nHere the Discriminant is", discriminant,
-                      "(Positive).\n"
+                      "(Positive or Neutral).\n"
                       "\nSo the Equation has Real Values and the PARABOLA intersects x-axis.\n"
                       "\nSubstitute the Discriminant value to the Formula.\n"
                       "\nThen Simplify,\n"
@@ -105,6 +105,6 @@ try:
         print("\nhttps://bit.ly/2MYlJdZ\n")
 
 except ValueError:
-    print("Invalid Input:(\n")
+    print("\nInvalid Input:(\n")
     print("Run Again\n")
     print("Try an Integer\n")
